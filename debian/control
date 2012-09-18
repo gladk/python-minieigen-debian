@@ -1,8 +1,8 @@
-Source: minieigen
+Source: python-minieigen
 Priority: optional
 Maintainer: Václav Šmilauer <eu@doxos.eu>
-Build-Depends: debhelper (>= 8.0.0), libboost-python-dev, libeigen3-dev, python-sphinx
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9.0.0), libboost-python-dev, libeigen3-dev, python-sphinx
+Standards-Version: 3.9.3
 Section: libs
 Homepage: http://www.launchpad.net/minieigen
 Vcs-Bzr: lp:minieigen
@@ -10,7 +10,7 @@ Vcs-Bzr: lp:minieigen
 Package: python-minieigen
 Section: python
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, libjs-jquery, libjs-underscore
 Description: Small boost::python wrapper of parts of the Eigen library.
  Small wrapper for core parts of Eigen, c++ library for linear algebra.
  It is mainly useful for inspecting c++ code which already uses eigen and
