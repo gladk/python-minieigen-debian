@@ -11,7 +11,7 @@ Package: python-minieigen
 Section: python
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, libjs-jquery, libjs-underscore
-Description: Small boost::python wrapper of parts of the Eigen library.
+Description: Small boost::python wrapper of parts of the Eigen library
  Small wrapper for core parts of Eigen, c++ library for linear algebra.
  It is mainly useful for inspecting c++ code which already uses eigen and
  boost::python. Supported types are Vectors (2,3,6 and dynamic-sized with

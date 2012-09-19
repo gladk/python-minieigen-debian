@@ -3,7 +3,7 @@
 export DEB_BUILD_HARDENING=1
 
 %:
-	dh $@ 
+	dh $@
 
 override_dh_installdocs:
 	dh_installdocs # run the default
